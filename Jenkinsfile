@@ -25,7 +25,7 @@ createDslContainers podName: dslPodName,
       }
 
       stage("Deploy Infra"){
-          deployInfra verbose: true, openstack_credentials_id: 'psi-multiarch-qe'
+          deployInfra verbose: true
       }
 
       stage("Configure Infra"){
