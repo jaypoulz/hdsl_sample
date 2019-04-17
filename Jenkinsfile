@@ -10,7 +10,6 @@ createDslContainers podName: dslPodName,
                     dockerRepoURL: dockerRepoURL,
                     openshiftNamespace: openshiftNamespace,
                     openshiftServiceAccount: openshiftServiceAccount,
-                    jnlp_image_name: 'macit-jenkins-slave',
 
 // Pass the remainder of your jenkinsfile as a closure to the createDslContainers method
 {
