@@ -5,7 +5,7 @@ infra:
       openstack:
         network:
         - provider_net_cci_1
-        key_pair: jpoulin-ssh
+        key_pair: jpoulin-openid
         security_group:
           - default
         instances:
