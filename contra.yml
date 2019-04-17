@@ -10,7 +10,7 @@ infra:
           - default
         instances:
         - name: rnester-database
-          flavor: m1.small
+          flavor: ci.m1.small
           image: CentOS-7-x86_64-GenericCloud-1612
           user: centos
           #- name: rnester-frontend
