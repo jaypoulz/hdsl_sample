@@ -16,7 +16,7 @@ createDslContainers podName: dslPodName,
   node(dslPodName){
       stage("pre-flight"){
           deleteDir()
-          git branch: 'master', url: 'https://github.com/robnester-rh/hdsl_sample'
+          git branch: 'master', url: 'https://github.com/jaypoulz/hdsl_sample'
       }
 
       stage("Parse Configuration"){
