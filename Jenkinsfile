@@ -32,9 +32,9 @@ createDslContainers podName: dslPodName,
           configureInfra verbose: true
       }
 
-      stage("Execute Tests"){
-          executeTests verbose: true
-      }
+      // stage("Execute Tests"){
+      //     executeTests verbose: true
+      // }
 
       stage("Destroy Infra"){
           destroyInfra verbose: true
